@@ -7,20 +7,37 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
+    
+    @State private var isAnimating = false
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Place your watch on the inside of your wrist.")
+                .padding()
+            
+            Button {
+                //code
+                self.isAnimating.toggle()
+                if isAnimating {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {enum WKHapticType: Int {
+                        case Click
+                    }
+                    }
+                }
+            }
+        label: {
+            Text("Press to Start and Stop Heptic Tap")
+                .foregroundColor(.green)
         }
-        .padding()
+        }
     }
 }
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
+    }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}

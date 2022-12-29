@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6E8FBABA295DEF940011564A /* HapticCalmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBAB9295DEF940011564A /* HapticCalmApp.swift */; };
-		6E8FBABC295DEF940011564A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBABB295DEF940011564A /* ContentView.swift */; };
 		6E8FBABE295DEF970011564A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E8FBABD295DEF970011564A /* Assets.xcassets */; };
 		6E8FBAC1295DEF970011564A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E8FBAC0295DEF970011564A /* Preview Assets.xcassets */; };
 		6E8FBACB295DEF980011564A /* HapticCalmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBACA295DEF980011564A /* HapticCalmTests.swift */; };
@@ -22,6 +21,18 @@
 		6E8FBAF3295DEF9A0011564A /* HapticCalm_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBAF2295DEF9A0011564A /* HapticCalm_Watch_AppTests.swift */; };
 		6E8FBAFD295DEF9A0011564A /* HapticCalm_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBAFC295DEF9A0011564A /* HapticCalm_Watch_AppUITests.swift */; };
 		6E8FBAFF295DEF9A0011564A /* HapticCalm_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBAFE295DEF9A0011564A /* HapticCalm_Watch_AppUITestsLaunchTests.swift */; };
+		6E8FBB2E295DF9BC0011564A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBB2D295DF9BC0011564A /* ContentView.swift */; };
+		6E8FBB2F295DF9BC0011564A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBB2D295DF9BC0011564A /* ContentView.swift */; };
+		6E8FBB30295DF9BC0011564A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBB2D295DF9BC0011564A /* ContentView.swift */; };
+		6E8FBB32295DF9CA0011564A /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBB31295DF9CA0011564A /* Particle.swift */; };
+		6E8FBB33295DF9CA0011564A /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBB31295DF9CA0011564A /* Particle.swift */; };
+		6E8FBB34295DF9CA0011564A /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBB31295DF9CA0011564A /* Particle.swift */; };
+		6E8FBB36295DF9D10011564A /* ParticalSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBB35295DF9D00011564A /* ParticalSystem.swift */; };
+		6E8FBB37295DF9D10011564A /* ParticalSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBB35295DF9D00011564A /* ParticalSystem.swift */; };
+		6E8FBB38295DF9D10011564A /* ParticalSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBB35295DF9D00011564A /* ParticalSystem.swift */; };
+		6E8FBB3A295DF9D60011564A /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBB39295DF9D60011564A /* MotionManager.swift */; };
+		6E8FBB3B295DF9D60011564A /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBB39295DF9D60011564A /* MotionManager.swift */; };
+		6E8FBB3C295DF9D60011564A /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBB39295DF9D60011564A /* MotionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +90,6 @@
 /* Begin PBXFileReference section */
 		6E8FBAB6295DEF940011564A /* HapticCalm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HapticCalm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E8FBAB9295DEF940011564A /* HapticCalmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticCalmApp.swift; sourceTree = "<group>"; };
-		6E8FBABB295DEF940011564A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6E8FBABD295DEF970011564A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E8FBAC0295DEF970011564A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6E8FBAC6295DEF980011564A /* HapticCalmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HapticCalmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +107,10 @@
 		6E8FBAF8295DEF9A0011564A /* HapticCalm Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HapticCalm Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E8FBAFC295DEF9A0011564A /* HapticCalm_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticCalm_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		6E8FBAFE295DEF9A0011564A /* HapticCalm_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticCalm_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6E8FBB2D295DF9BC0011564A /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E8FBB31295DF9CA0011564A /* Particle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
+		6E8FBB35295DF9D00011564A /* ParticalSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticalSystem.swift; sourceTree = "<group>"; };
+		6E8FBB39295DF9D60011564A /* MotionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,7 +189,10 @@
 			isa = PBXGroup;
 			children = (
 				6E8FBAB9295DEF940011564A /* HapticCalmApp.swift */,
-				6E8FBABB295DEF940011564A /* ContentView.swift */,
+				6E8FBB2D295DF9BC0011564A /* ContentView.swift */,
+				6E8FBB31295DF9CA0011564A /* Particle.swift */,
+				6E8FBB35295DF9D00011564A /* ParticalSystem.swift */,
+				6E8FBB39295DF9D60011564A /* MotionManager.swift */,
 				6E8FBABD295DEF970011564A /* Assets.xcassets */,
 				6E8FBABF295DEF970011564A /* Preview Content */,
 			);
@@ -465,7 +482,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E8FBABC295DEF940011564A /* ContentView.swift in Sources */,
+				6E8FBB36295DF9D10011564A /* ParticalSystem.swift in Sources */,
+				6E8FBB3A295DF9D60011564A /* MotionManager.swift in Sources */,
+				6E8FBB2E295DF9BC0011564A /* ContentView.swift in Sources */,
+				6E8FBB32295DF9CA0011564A /* Particle.swift in Sources */,
 				6E8FBABA295DEF940011564A /* HapticCalmApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +494,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E8FBB37295DF9D10011564A /* ParticalSystem.swift in Sources */,
+				6E8FBB3B295DF9D60011564A /* MotionManager.swift in Sources */,
+				6E8FBB2F295DF9BC0011564A /* ContentView.swift in Sources */,
+				6E8FBB33295DF9CA0011564A /* Particle.swift in Sources */,
 				6E8FBACB295DEF980011564A /* HapticCalmTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,7 +507,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E8FBAD7295DEF980011564A /* HapticCalmUITestsLaunchTests.swift in Sources */,
+				6E8FBB3C295DF9D60011564A /* MotionManager.swift in Sources */,
+				6E8FBB38295DF9D10011564A /* ParticalSystem.swift in Sources */,
+				6E8FBB34295DF9CA0011564A /* Particle.swift in Sources */,
 				6E8FBAD5295DEF980011564A /* HapticCalmUITests.swift in Sources */,
+				6E8FBB30295DF9BC0011564A /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
