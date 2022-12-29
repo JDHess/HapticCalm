@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E8FBABA295DEF940011564A /* HapticCalmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBAB9295DEF940011564A /* HapticCalmApp.swift */; };
+		6E8FBABC295DEF940011564A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBABB295DEF940011564A /* ContentView.swift */; };
+		6E8FBABE295DEF970011564A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E8FBABD295DEF970011564A /* Assets.xcassets */; };
+		6E8FBAC1295DEF970011564A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E8FBAC0295DEF970011564A /* Preview Assets.xcassets */; };
+		6E8FBACB295DEF980011564A /* HapticCalmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBACA295DEF980011564A /* HapticCalmTests.swift */; };
+		6E8FBAD5295DEF980011564A /* HapticCalmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBAD4295DEF980011564A /* HapticCalmUITests.swift */; };
+		6E8FBAD7295DEF980011564A /* HapticCalmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBAD6295DEF980011564A /* HapticCalmUITestsLaunchTests.swift */; };
+		6E8FBADD295DEF980011564A /* HapticCalm Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6E8FBADC295DEF980011564A /* HapticCalm Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6E8FBAE2295DEF980011564A /* HapticCalmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBAE1295DEF980011564A /* HapticCalmApp.swift */; };
+		6E8FBAE4295DEF980011564A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBAE3295DEF980011564A /* ContentView.swift */; };
+		6E8FBAE6295DEF9A0011564A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E8FBAE5295DEF9A0011564A /* Assets.xcassets */; };
+		6E8FBAE9295DEF9A0011564A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E8FBAE8295DEF9A0011564A /* Preview Assets.xcassets */; };
+		6E8FBAF3295DEF9A0011564A /* HapticCalm_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBAF2295DEF9A0011564A /* HapticCalm_Watch_AppTests.swift */; };
+		6E8FBAFD295DEF9A0011564A /* HapticCalm_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBAFC295DEF9A0011564A /* HapticCalm_Watch_AppUITests.swift */; };
+		6E8FBAFF295DEF9A0011564A /* HapticCalm_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FBAFE295DEF9A0011564A /* HapticCalm_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E8FBAC7295DEF980011564A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E8FBAAE295DEF940011564A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E8FBAB5295DEF940011564A;
+			remoteInfo = HapticCalm;
+		};
+		6E8FBAD1295DEF980011564A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E8FBAAE295DEF940011564A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E8FBAB5295DEF940011564A;
+			remoteInfo = HapticCalm;
+		};
+		6E8FBADE295DEF980011564A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E8FBAAE295DEF940011564A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E8FBADB295DEF980011564A;
+			remoteInfo = "HapticCalm Watch App";
+		};
+		6E8FBAEF295DEF9A0011564A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E8FBAAE295DEF940011564A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E8FBADB295DEF980011564A;
+			remoteInfo = "HapticCalm Watch App";
+		};
+		6E8FBAF9295DEF9A0011564A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E8FBAAE295DEF940011564A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E8FBADB295DEF980011564A;
+			remoteInfo = "HapticCalm Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6E8FBB05295DEF9A0011564A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6E8FBADD295DEF980011564A /* HapticCalm Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6E8FBAB6295DEF940011564A /* HapticCalm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HapticCalm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8FBAB9295DEF940011564A /* HapticCalmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticCalmApp.swift; sourceTree = "<group>"; };
+		6E8FBABB295DEF940011564A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E8FBABD295DEF970011564A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E8FBAC0295DEF970011564A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E8FBAC6295DEF980011564A /* HapticCalmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HapticCalmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8FBACA295DEF980011564A /* HapticCalmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticCalmTests.swift; sourceTree = "<group>"; };
+		6E8FBAD0295DEF980011564A /* HapticCalmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HapticCalmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8FBAD4295DEF980011564A /* HapticCalmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticCalmUITests.swift; sourceTree = "<group>"; };
+		6E8FBAD6295DEF980011564A /* HapticCalmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticCalmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6E8FBADC295DEF980011564A /* HapticCalm Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HapticCalm Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8FBAE1295DEF980011564A /* HapticCalmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticCalmApp.swift; sourceTree = "<group>"; };
+		6E8FBAE3295DEF980011564A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E8FBAE5295DEF9A0011564A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E8FBAE8295DEF9A0011564A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E8FBAEE295DEF9A0011564A /* HapticCalm Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HapticCalm Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8FBAF2295DEF9A0011564A /* HapticCalm_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticCalm_Watch_AppTests.swift; sourceTree = "<group>"; };
+		6E8FBAF8295DEF9A0011564A /* HapticCalm Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HapticCalm Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8FBAFC295DEF9A0011564A /* HapticCalm_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticCalm_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		6E8FBAFE295DEF9A0011564A /* HapticCalm_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticCalm_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E8FBAB3295DEF940011564A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8FBAC3295DEF980011564A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8FBACD295DEF980011564A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8FBAD9295DEF980011564A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8FBAEB295DEF9A0011564A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8FBAF5295DEF9A0011564A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E8FBAAD295DEF940011564A = {
+			isa = PBXGroup;
+			children = (
+				6E8FBAB8295DEF940011564A /* HapticCalm */,
+				6E8FBAC9295DEF980011564A /* HapticCalmTests */,
+				6E8FBAD3295DEF980011564A /* HapticCalmUITests */,
+				6E8FBAE0295DEF980011564A /* HapticCalm Watch App */,
+				6E8FBAF1295DEF9A0011564A /* HapticCalm Watch AppTests */,
+				6E8FBAFB295DEF9A0011564A /* HapticCalm Watch AppUITests */,
+				6E8FBAB7295DEF940011564A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E8FBAB7295DEF940011564A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E8FBAB6295DEF940011564A /* HapticCalm.app */,
+				6E8FBAC6295DEF980011564A /* HapticCalmTests.xctest */,
+				6E8FBAD0295DEF980011564A /* HapticCalmUITests.xctest */,
+				6E8FBADC295DEF980011564A /* HapticCalm Watch App.app */,
+				6E8FBAEE295DEF9A0011564A /* HapticCalm Watch AppTests.xctest */,
+				6E8FBAF8295DEF9A0011564A /* HapticCalm Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E8FBAB8295DEF940011564A /* HapticCalm */ = {
+			isa = PBXGroup;
+			children = (
+				6E8FBAB9295DEF940011564A /* HapticCalmApp.swift */,
+				6E8FBABB295DEF940011564A /* ContentView.swift */,
+				6E8FBABD295DEF970011564A /* Assets.xcassets */,
+				6E8FBABF295DEF970011564A /* Preview Content */,
+			);
+			path = HapticCalm;
+			sourceTree = "<group>";
+		};
+		6E8FBABF295DEF970011564A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6E8FBAC0295DEF970011564A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E8FBAC9295DEF980011564A /* HapticCalmTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E8FBACA295DEF980011564A /* HapticCalmTests.swift */,
+			);
+			path = HapticCalmTests;
+			sourceTree = "<group>";
+		};
+		6E8FBAD3295DEF980011564A /* HapticCalmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E8FBAD4295DEF980011564A /* HapticCalmUITests.swift */,
+				6E8FBAD6295DEF980011564A /* HapticCalmUITestsLaunchTests.swift */,
+			);
+			path = HapticCalmUITests;
+			sourceTree = "<group>";
+		};
+		6E8FBAE0295DEF980011564A /* HapticCalm Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				6E8FBAE1295DEF980011564A /* HapticCalmApp.swift */,
+				6E8FBAE3295DEF980011564A /* ContentView.swift */,
+				6E8FBAE5295DEF9A0011564A /* Assets.xcassets */,
+				6E8FBAE7295DEF9A0011564A /* Preview Content */,
+			);
+			path = "HapticCalm Watch App";
+			sourceTree = "<group>";
+		};
+		6E8FBAE7295DEF9A0011564A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6E8FBAE8295DEF9A0011564A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E8FBAF1295DEF9A0011564A /* HapticCalm Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E8FBAF2295DEF9A0011564A /* HapticCalm_Watch_AppTests.swift */,
+			);
+			path = "HapticCalm Watch AppTests";
+			sourceTree = "<group>";
+		};
+		6E8FBAFB295DEF9A0011564A /* HapticCalm Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E8FBAFC295DEF9A0011564A /* HapticCalm_Watch_AppUITests.swift */,
+				6E8FBAFE295DEF9A0011564A /* HapticCalm_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "HapticCalm Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E8FBAB5295DEF940011564A /* HapticCalm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8FBB06295DEF9A0011564A /* Build configuration list for PBXNativeTarget "HapticCalm" */;
+			buildPhases = (
+				6E8FBAB2295DEF940011564A /* Sources */,
+				6E8FBAB3295DEF940011564A /* Frameworks */,
+				6E8FBAB4295DEF940011564A /* Resources */,
+				6E8FBB05295DEF9A0011564A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E8FBADF295DEF980011564A /* PBXTargetDependency */,
+			);
+			name = HapticCalm;
+			productName = HapticCalm;
+			productReference = 6E8FBAB6295DEF940011564A /* HapticCalm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E8FBAC5295DEF980011564A /* HapticCalmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8FBB09295DEF9A0011564A /* Build configuration list for PBXNativeTarget "HapticCalmTests" */;
+			buildPhases = (
+				6E8FBAC2295DEF980011564A /* Sources */,
+				6E8FBAC3295DEF980011564A /* Frameworks */,
+				6E8FBAC4295DEF980011564A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E8FBAC8295DEF980011564A /* PBXTargetDependency */,
+			);
+			name = HapticCalmTests;
+			productName = HapticCalmTests;
+			productReference = 6E8FBAC6295DEF980011564A /* HapticCalmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E8FBACF295DEF980011564A /* HapticCalmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8FBB0C295DEF9A0011564A /* Build configuration list for PBXNativeTarget "HapticCalmUITests" */;
+			buildPhases = (
+				6E8FBACC295DEF980011564A /* Sources */,
+				6E8FBACD295DEF980011564A /* Frameworks */,
+				6E8FBACE295DEF980011564A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E8FBAD2295DEF980011564A /* PBXTargetDependency */,
+			);
+			name = HapticCalmUITests;
+			productName = HapticCalmUITests;
+			productReference = 6E8FBAD0295DEF980011564A /* HapticCalmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6E8FBADB295DEF980011564A /* HapticCalm Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8FBB02295DEF9A0011564A /* Build configuration list for PBXNativeTarget "HapticCalm Watch App" */;
+			buildPhases = (
+				6E8FBAD8295DEF980011564A /* Sources */,
+				6E8FBAD9295DEF980011564A /* Frameworks */,
+				6E8FBADA295DEF980011564A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HapticCalm Watch App";
+			productName = "HapticCalm Watch App";
+			productReference = 6E8FBADC295DEF980011564A /* HapticCalm Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E8FBAED295DEF9A0011564A /* HapticCalm Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8FBB0F295DEF9A0011564A /* Build configuration list for PBXNativeTarget "HapticCalm Watch AppTests" */;
+			buildPhases = (
+				6E8FBAEA295DEF9A0011564A /* Sources */,
+				6E8FBAEB295DEF9A0011564A /* Frameworks */,
+				6E8FBAEC295DEF9A0011564A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E8FBAF0295DEF9A0011564A /* PBXTargetDependency */,
+			);
+			name = "HapticCalm Watch AppTests";
+			productName = "HapticCalm Watch AppTests";
+			productReference = 6E8FBAEE295DEF9A0011564A /* HapticCalm Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E8FBAF7295DEF9A0011564A /* HapticCalm Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8FBB12295DEF9A0011564A /* Build configuration list for PBXNativeTarget "HapticCalm Watch AppUITests" */;
+			buildPhases = (
+				6E8FBAF4295DEF9A0011564A /* Sources */,
+				6E8FBAF5295DEF9A0011564A /* Frameworks */,
+				6E8FBAF6295DEF9A0011564A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E8FBAFA295DEF9A0011564A /* PBXTargetDependency */,
+			);
+			name = "HapticCalm Watch AppUITests";
+			productName = "HapticCalm Watch AppUITests";
+			productReference = 6E8FBAF8295DEF9A0011564A /* HapticCalm Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E8FBAAE295DEF940011564A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					6E8FBAB5295DEF940011564A = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					6E8FBAC5295DEF980011564A = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 6E8FBAB5295DEF940011564A;
+					};
+					6E8FBACF295DEF980011564A = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 6E8FBAB5295DEF940011564A;
+					};
+					6E8FBADB295DEF980011564A = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					6E8FBAED295DEF9A0011564A = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 6E8FBADB295DEF980011564A;
+					};
+					6E8FBAF7295DEF9A0011564A = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 6E8FBADB295DEF980011564A;
+					};
+				};
+			};
+			buildConfigurationList = 6E8FBAB1295DEF940011564A /* Build configuration list for PBXProject "HapticCalm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E8FBAAD295DEF940011564A;
+			productRefGroup = 6E8FBAB7295DEF940011564A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E8FBAB5295DEF940011564A /* HapticCalm */,
+				6E8FBAC5295DEF980011564A /* HapticCalmTests */,
+				6E8FBACF295DEF980011564A /* HapticCalmUITests */,
+				6E8FBADB295DEF980011564A /* HapticCalm Watch App */,
+				6E8FBAED295DEF9A0011564A /* HapticCalm Watch AppTests */,
+				6E8FBAF7295DEF9A0011564A /* HapticCalm Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E8FBAB4295DEF940011564A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8FBAC1295DEF970011564A /* Preview Assets.xcassets in Resources */,
+				6E8FBABE295DEF970011564A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8FBAC4295DEF980011564A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8FBACE295DEF980011564A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8FBADA295DEF980011564A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8FBAE9295DEF9A0011564A /* Preview Assets.xcassets in Resources */,
+				6E8FBAE6295DEF9A0011564A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8FBAEC295DEF9A0011564A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8FBAF6295DEF9A0011564A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E8FBAB2295DEF940011564A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8FBABC295DEF940011564A /* ContentView.swift in Sources */,
+				6E8FBABA295DEF940011564A /* HapticCalmApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8FBAC2295DEF980011564A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8FBACB295DEF980011564A /* HapticCalmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8FBACC295DEF980011564A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8FBAD7295DEF980011564A /* HapticCalmUITestsLaunchTests.swift in Sources */,
+				6E8FBAD5295DEF980011564A /* HapticCalmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8FBAD8295DEF980011564A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8FBAE4295DEF980011564A /* ContentView.swift in Sources */,
+				6E8FBAE2295DEF980011564A /* HapticCalmApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8FBAEA295DEF9A0011564A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8FBAF3295DEF9A0011564A /* HapticCalm_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8FBAF4295DEF9A0011564A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8FBAFF295DEF9A0011564A /* HapticCalm_Watch_AppUITestsLaunchTests.swift in Sources */,
+				6E8FBAFD295DEF9A0011564A /* HapticCalm_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E8FBAC8295DEF980011564A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E8FBAB5295DEF940011564A /* HapticCalm */;
+			targetProxy = 6E8FBAC7295DEF980011564A /* PBXContainerItemProxy */;
+		};
+		6E8FBAD2295DEF980011564A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E8FBAB5295DEF940011564A /* HapticCalm */;
+			targetProxy = 6E8FBAD1295DEF980011564A /* PBXContainerItemProxy */;
+		};
+		6E8FBADF295DEF980011564A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E8FBADB295DEF980011564A /* HapticCalm Watch App */;
+			targetProxy = 6E8FBADE295DEF980011564A /* PBXContainerItemProxy */;
+		};
+		6E8FBAF0295DEF9A0011564A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E8FBADB295DEF980011564A /* HapticCalm Watch App */;
+			targetProxy = 6E8FBAEF295DEF9A0011564A /* PBXContainerItemProxy */;
+		};
+		6E8FBAFA295DEF9A0011564A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E8FBADB295DEF980011564A /* HapticCalm Watch App */;
+			targetProxy = 6E8FBAF9295DEF9A0011564A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6E8FBB00295DEF9A0011564A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E8FBB01295DEF9A0011564A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6E8FBB03295DEF9A0011564A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HapticCalm Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HapticCalm;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.JDHess.HapticCalm;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JDHess.HapticCalm.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		6E8FBB04295DEF9A0011564A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HapticCalm Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HapticCalm;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.JDHess.HapticCalm;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JDHess.HapticCalm.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		6E8FBB07295DEF9A0011564A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HapticCalm/Preview Content\"";
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HapticCalm;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JDHess.HapticCalm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E8FBB08295DEF9A0011564A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HapticCalm/Preview Content\"";
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HapticCalm;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JDHess.HapticCalm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E8FBB0A295DEF9A0011564A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JDHess.HapticCalmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HapticCalm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HapticCalm";
+			};
+			name = Debug;
+		};
+		6E8FBB0B295DEF9A0011564A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JDHess.HapticCalmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HapticCalm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HapticCalm";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E8FBB0D295DEF9A0011564A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JDHess.HapticCalmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HapticCalm;
+			};
+			name = Debug;
+		};
+		6E8FBB0E295DEF9A0011564A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JDHess.HapticCalmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HapticCalm;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E8FBB10295DEF9A0011564A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JDHess.HapticCalm-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HapticCalm Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HapticCalm Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		6E8FBB11295DEF9A0011564A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JDHess.HapticCalm-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HapticCalm Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HapticCalm Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		6E8FBB13295DEF9A0011564A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JDHess.HapticCalm-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "HapticCalm Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		6E8FBB14295DEF9A0011564A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JDHess.HapticCalm-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "HapticCalm Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E8FBAB1295DEF940011564A /* Build configuration list for PBXProject "HapticCalm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8FBB00295DEF9A0011564A /* Debug */,
+				6E8FBB01295DEF9A0011564A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E8FBB02295DEF9A0011564A /* Build configuration list for PBXNativeTarget "HapticCalm Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8FBB03295DEF9A0011564A /* Debug */,
+				6E8FBB04295DEF9A0011564A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E8FBB06295DEF9A0011564A /* Build configuration list for PBXNativeTarget "HapticCalm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8FBB07295DEF9A0011564A /* Debug */,
+				6E8FBB08295DEF9A0011564A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E8FBB09295DEF9A0011564A /* Build configuration list for PBXNativeTarget "HapticCalmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8FBB0A295DEF9A0011564A /* Debug */,
+				6E8FBB0B295DEF9A0011564A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E8FBB0C295DEF9A0011564A /* Build configuration list for PBXNativeTarget "HapticCalmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8FBB0D295DEF9A0011564A /* Debug */,
+				6E8FBB0E295DEF9A0011564A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E8FBB0F295DEF9A0011564A /* Build configuration list for PBXNativeTarget "HapticCalm Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8FBB10295DEF9A0011564A /* Debug */,
+				6E8FBB11295DEF9A0011564A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E8FBB12295DEF9A0011564A /* Build configuration list for PBXNativeTarget "HapticCalm Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8FBB13295DEF9A0011564A /* Debug */,
+				6E8FBB14295DEF9A0011564A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E8FBAAE295DEF940011564A /* Project object */;
+}
