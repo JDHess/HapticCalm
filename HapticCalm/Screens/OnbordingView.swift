@@ -1,17 +1,20 @@
 //
-//  ContentView.swift
-//  Zen Motion
+//  OnbordingView.swift
+//  HapticCalm
 //
-//  Created by Julie Hess on 12/23/22.
+//  Created by Julie Hess on 12/30/22.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct OnbordingView: View {
     @State private var particleSystem = ParticleSystem()
     @State private var motionHandler = MotionManager()
+    @AppStorage("onboarding") var isOnbordingViewActive: Bool = true
+    
     
     var body: some View {
+        ZStack{
         TimelineView(.animation){ timeline in
             Canvas {context, size in
                 //drawing code here
@@ -39,12 +42,21 @@ struct ContentView: View {
                 })
             .ignoresSafeArea()
             .background(.black)
+            
+                VStack(spacing:20){
+                Button(action: {
+                    isOnbordingViewActive = false
+                }){
+                    Text("Info")
+                }
+            }
+            }
         }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct OnbordingView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        OnbordingView()
     }
 }
